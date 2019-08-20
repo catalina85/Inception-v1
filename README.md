@@ -32,8 +32,8 @@ Download the pre-trained parameters [here](http://www.deeplearningmodel.net/).
 
 #### Preparation
 - Download CIFAR-10 dataset from [here](https://www.cs.toronto.edu/~kriz/cifar.html)
-- Setup path in [`tools/inception_cifar.py`](tools/inception_cifar.py): 
-`DATA_PATH` is the path to put CIFAR-10. 
+- Setup path in `tools/inception_cifar.py`:   
+`DATA_PATH` is the path to put CIFAR-10.   
 `SAVE_PATH` is the path to save or load summary file and trained model.
 #### Train the model
 Go to `tools/` and run the script:
@@ -54,10 +54,10 @@ python inception_cifar.py --eval \
 ```
 learning curve for training set 
 
-![train_lc](imgs/train.png)
+![train](./imgs/train.png)
 
 learning curve for testing set 
 - The accuracy on testing set is 0.9359.
 
-![valid_lc](imgs/valid.png)
+![valid](./imgs/valid.png)
 
