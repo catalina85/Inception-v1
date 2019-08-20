@@ -60,4 +60,3 @@ learning curve for testing set
 - The accuracy on testing set is 0.9359.
 
 ![](./imgs/valid.png)
-
