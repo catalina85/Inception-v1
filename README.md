@@ -54,10 +54,10 @@ python inception_cifar.py --eval \
 ```
 learning curve for training set 
 
-![train](./imgs/train.png)
+![](imgs/train.png)
 
 learning curve for testing set 
 - The accuracy on testing set is 0.9359.
 
-![valid](./imgs/valid.png)
+![](imgs/valid.png)
 
